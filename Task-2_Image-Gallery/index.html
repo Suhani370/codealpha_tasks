@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery | Suhani</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Image Gallery</h1>
+        <p>Explore beautiful moments from Nature, Travel and City Life</p>
+    </header>
+
+    <section class="gallery-section">
+
+        <div class="filter-buttons">
+            <button class="active" data-filter="all">All</button>
+            <button data-filter="nature">Nature</button>
+            <button data-filter="travel">Travel</button>
+            <button data-filter="city">City</button>
+        </div>
+
+<section class="gallery">
+
+    <div class="gallery-item nature">
+        <img src="images/nature1.jpeg" alt="Beautiful Nature">
+    </div>
+
+    <div class="gallery-item nature">
+        <img src="images/nature2.jpeg" alt="Nature Landscape">
+    </div>
+
+    <div class="gallery-item travel">
+        <img src="images/travel1.jpeg" alt="Travel Destination">
+    </div>
+
+    <div class="gallery-item travel">
+        <img src="images/travel2.jpeg" alt="Travel Adventure">
+    </div>
+
+    <div class="gallery-item city">
+        <img src="images/city1.jpeg" alt="City View">
+    </div>
+
+    <div class="gallery-item city">
+        <img src="images/city2.jpeg" alt="Modern City">
+    </div>
+
+</section>
+
+
+
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">&#10094;</button>
+
+        <img class="lightbox-image" id="lightboxImage" src="" alt="Gallery Preview">
+
+        <button class="next">&#10095;</button>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Image Gallery | Designed & Developed by Suhani ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
